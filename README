@@ -1,0 +1,18 @@
+My final project for the "Statistics, Observations, and Modeling in Astronomy" graduate seminar, taught by David Schiminovich at Columbia University.  
+
+My goals for this project were:
+
+1) to teach myself a couple different methods for time-series analysis
+
+2) to see how well rotation periods for stars can be determined using high-cadence but short-baseline data (a single Kepler quarter), as opposed to high-cadence and long-baseline data (4 Kepler quarters, the results from McQuillan et al. 2013).  I wanted to do this in anticipation of K2 observations, which will provide only about 75 days of data on many stars around the sky.
+
+3) to see how well rotation periods for stars can be determined using long-baseline but unevenly sampled data (ground-based surveys like PTF), again as opposed to the high-cadence and long-baseline results from Kepler presented in McQuillan et al. (2013)
+
+
+Broadly speaking, my results for these three goals are most easily seen in:
+
+1) time_series.py
+
+2) final_project_Douglas.ipynb
+
+3) subsampling_kepler.ipynb
