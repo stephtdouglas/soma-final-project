@@ -16,3 +16,9 @@ Broadly speaking, my results for these three goals are most easily seen in:
 2) final_project_Douglas.ipynb
 
 3) subsampling_kepler.ipynb
+
+
+A script for downloading the lightcurves I used for this is under the lcs/ folder
+
+
+fix_kepler.py implements the method used by McQuillan et al. (2013) to patch gaps in the Kepler data (usually due to Kepler turning to downlink data and changing orientations between quarters)
